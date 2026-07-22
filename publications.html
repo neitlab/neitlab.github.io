@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications | NEIT</title>
+  <meta name="description" content="Browse publications and research outputs from NEIT.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="NEIT home">
+      <div class="brand-mark">
+        <span class="logo-neit">NEIT</span><span class="logo-lab">Lab</span>
+      </div>
+      <div class="brand-text">
+        <span>Neural Engineering and Interface Technologies</span>
+      </div>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html" class="active">Publications</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="kicker">Publications</div>
+      <h1>Selected publications</h1>
+      <p class="hero-full">
+        Browse the full publication list from NEIT. Use the search bar or filter by year
+        to quickly find relevant work.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="publication-controls">
+        <div class="publication-search">
+          <label for="publication-search">Search publications</label>
+          <input
+            type="text"
+            id="publication-search"
+            placeholder="Search by title, keyword, or publication venue"
+            autocomplete="off"
+          >
+        </div>
+      
+        <div class="publication-filter">
+          <label for="publication-year">Filter by year</label>
+          <select id="publication-year">
+            <option value="all">All years</option>
+          </select>
+        </div>
+      </div>
+
+      <p id="publications-count" class="note">Loading publications...</p>
+
+      <div id="publications-list" class="pub-list">
+        <p>Loading publications...</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container card">
+      <h3>About this list</h3>
+      <p>
+        This publication list is intended to provide a complete and searchable overview
+        of the group’s research outputs. Entries are generated from the Google Scholar
+        profile of Deren Barsakcioglu and updated regularly. If you notice a missing or
+        incorrect entry, please <a class="inline-link" href="contact.html">get in touch</a>.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h3>NEIT</h3>
+        <p>
+          Advancing neural interface technologies through sensing, decoding, and closed-loop interaction.
+        </p>
+      </div>
+      <div>
+        <h3>Navigate</h3>
+        <ul>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="people.html">People</a></li>
+          <li><a href="join.html">Join</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:contact@neitlab.org">contact@neitlab.org</a></li>
+          <li>Department of Engineering Technology</li>
+          <li>Technical University of Denmark (DTU)</li>
+          <li>Copenhagen, Denmark</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="current-year"></span> NEIT — Neural Engineering and Interface Technologies</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

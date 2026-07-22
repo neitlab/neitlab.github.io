@@ -1,0 +1,56 @@
+[
+  {
+    "id": "research-assistant-position",
+    "date": "2026-07-21",
+    "title": "Research Assistant position now open",
+    "summary": "NEIT Lab is recruiting a Research Assistant to support wearable neural-interface research, embedded electronics development, and laboratory infrastructure.",
+    "content": [
+      "The successful candidate will contribute to the development of experimental setups, embedded electronics, wearable systems, and biosignal recordings."
+    ],
+    "category": "Recruitment",
+    "pinned": true,
+    "is_visible": true,
+    "show_link": true,
+    "link_url": "join.html#open-positions",
+    "link_text": "View open position"
+  },
+  {
+    "id": "2026-03-NNF-STG",
+    "date": "2026-03-30",
+    "title": "New Funding: Novo Nordisk Foundation Start Grant Package",
+    "summary": "Dr. Deren Y. Barsakcioglu is awarded the Novo Nordisk Foundation Start Grant Package.",
+    "content": [
+      "The award provides funding for researchers and critical research infrastructure to establish NEIT Lab and develop wearable adaptive neural interface technologies."
+    ],
+    "category": "Announcement",
+    "pinned": true,
+    "is_visible": true,
+    "show_link": false
+  },
+  {
+    "id": "2026-03-TUM-collab",
+    "date": "2026-03-29",
+    "title": "New paper on muscle and motoneuron synergies in biomimetic and non-biomimetic 3-DoF tasks",
+    "summary": "Our latest work explores differences in encoded information at the muscle and motoneuron level during real-time myoelectric control.",
+    "content": [
+      "The paper investigates muscle- and motoneuron-level synergies during biomimetic and non-biomimetic three-degree-of-freedom control tasks, providing new insights into neural representations relevant for future human-machine interfaces."
+    ],
+    "category": "Publication",
+    "pinned": false,
+    "is_visible": true,
+    "show_link": false
+  },
+  {
+    "id": "2026-03-website-launch",
+    "date": "2026-03-19",
+    "title": "NEIT website launched",
+    "summary": "The Neural Engineering and Interface Technologies group website is now live.",
+    "content": [
+      "The website introduces the NEIT research group, its research themes, publications, opportunities, and news. It will continue to evolve as the group grows."
+    ],
+    "category": "Announcement",
+    "pinned": false,
+    "is_visible": true,
+    "show_link": false
+  }
+]

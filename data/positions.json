@@ -1,0 +1,82 @@
+[
+    
+    {
+      "id": "research-assistant-nnf",
+      "status": "Open call",
+      "title": "Research Assistant",
+      "summary": "Research Assistant in Wearable Neural Interfaces.",
+      "details": [
+        "If you are interested in wearable neurotechnology and want hands-on experience at the forefront of neural engineering, this position offers a unique opportunity to help develop the experimental and technical foundations of a new research program. You will contribute to adaptive wearable neural-interface research by developing wireless wearable systems for non-invasive electromyography, support the establishment of human-experiment infrastructure, and work at the interface between embedded electronics, biomedical signal acquisition, and neural-interface research."
+      ],
+      "audience": "Research Assistant",
+      "is_open": true,
+      "contact_email": "dyuba@dtu.dk",
+      "show_contact_link": true,
+      "show_apply_link": true,
+      "apply_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7750/?utm_medium=jobshare&utm_source=External+Job+Share"
+    },
+    {
+      "id": "phd-neural-engineering",
+      "status": "Open call",
+      "title": "PhD opportunities in neural engineering",
+      "summary": "Research opportunities in neural interfaces, biomedical signal processing, and translational neurotechnology.",
+      "details": [
+        "Suitable backgrounds include biomedical engineering, electrical engineering, signal processing, robotics, computer science, or related fields.",
+        "Projects may involve non-invasive neural interfacing, high-density electrophysiology, closed-loop systems, and computational modeling.",
+        "Formal openings may be advertised separately through university channels."
+      ],
+      "audience": "PhD",
+      "is_open": false,
+      "contact_email": "contact@neitlab.org",
+      "show_contact_link": true,
+      "show_apply_link": false,
+      "apply_url": "https://example.com/job-application"
+    },
+    {
+      "id": "msc-project-students",
+      "status": "Rolling",
+      "title": "Student projects: MSc and undergraduate research",
+      "summary": "Project-based opportunities for students interested in neural engineering, signal processing, biomedical electronics, and assistive technologies.",
+      "details": [
+        "Student projects may involve experiments, algorithm development, wearable systems, or data analysis.",
+        "Both exploratory and thesis-aligned projects may be available depending on timing and fit."
+      ],
+      "audience": "MSc, Undergraduate",
+      "is_open": true,
+      "contact_email": "contact@neitlab.org",
+      "show_contact_link": true,
+      "show_apply_link": false,
+      "apply_url": "https://example.com/job-application"
+    },
+    {
+      "id": "visiting-researchers-collaborators",
+      "status": "Collaborations",
+      "title": "Visiting researchers and partnerships",
+      "summary": "Opportunities for visiting researchers, academic and industry collaborators, and translational partnerships across neural interfaces and neurotechnology.",
+      "details": [
+        "Potential collaboration areas include neural interfaces, motor decoding, rehabilitation technologies, and human-machine interaction.",
+        "Please get in touch with a short description of your background and proposed collaboration."
+      ],
+      "audience": "Collaboration",
+      "is_open": true,
+      "contact_email": "contact@neitlab.org",
+      "show_contact_link": true,
+      "show_apply_link": false,
+      "apply_url": "https://example.com/job-application"
+    },
+    {
+      "id": "postdoctoral-researchers",
+      "status": "Future opportunities",
+      "title": "Postdoctoral researchers",
+      "summary": "Postdoctoral openings may be announced as the lab grows and funding opportunities develop.",
+      "details": [
+        "Researchers with strong experience in neurotechnology, biomedical signal processing, machine learning, or translational systems are encouraged to reach out informally."
+      ],
+      "audience": "Postdoc",
+      "is_open": true,
+      "contact_email": "contact@neitlab.org",
+      "show_contact_link": true,
+      "show_apply_link": false,
+      "apply_url": "https://example.com/job-application"
+    }
+  ]

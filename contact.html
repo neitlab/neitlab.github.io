@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | NEIT</title>
+  <meta name="description" content="Contact details, address, collaboration enquiries, and application information for NEIT.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="NEIT home">
+      <div class="brand-mark">
+        <span class="logo-neit">NEIT</span><span class="logo-lab">Lab</span>
+      </div>
+      <div class="brand-text">
+        <span>Neural Engineering and Interface Technologies</span>
+      </div>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html" class="">Home</a></li>
+        <li><a href="about.html" class="">About</a></li>
+        <li><a href="research.html" class="">Research</a></li>
+        <li><a href="publications.html" class="">Publications</a></li>
+        <li><a href="people.html" class="">People</a></li>
+        <li><a href="join.html" class="">Join</a></li>
+        <li><a href="news.html" class="">News</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="kicker">Contact</div>
+      <h1>Contact</h1>
+      <p class="hero-full">Please use the contact form for student applications, research assistant and postdoctoral opportunities, and collaboration enquiries.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container two-column-layout">
+      <div class="contact-card">
+        <h3>General contact</h3>
+        <div class="contact-meta">Email</div>
+        <p><a class="muted-link" href="mailto:contact@neit-lab.org">contact@neitlab.org</a></p>
+        <div class="contact-meta">Address</div>
+        <p>Department of Engineering Technology<br>Technical University of Denmark (DTU)<br>Lautrupvang, 011<br>Ballerup, 2750<br>Denmark</p>
+        <div class="contact-meta">Links</div>
+        <p><a class="muted-link" href="#">GitHub</a> · <a class="muted-link" href="#">Scholar</a> · <a class="muted-link" href="#">LinkedIn</a></p>
+      </div>
+      <div class="contact-card">
+        <h3>Contact form</h3>
+        <form action="mailto:contact@neit-lab.org" method="post" enctype="text/plain">
+          <label>Name
+            <input type="text" name="name" placeholder="Your name">
+          </label>
+          <label>Email
+            <input type="email" name="email" placeholder="your.email@example.com">
+          </label>
+          <label>Message
+            <textarea name="message" placeholder="Tell us briefly why you are getting in touch."></textarea>
+          </label>
+          <input type="submit" value="Send via email client">
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h3>NEIT</h3>
+        <p>Advancing neural interface technologies through sensing, decoding, and closed-loop interaction.</p>
+      </div>
+      <div>
+        <h3>Navigate</h3>
+        <ul>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="people.html">People</a></li>
+          <li><a href="join.html">Join</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:contact@neitlab.org">contact@neitlab.org</a></li>
+          <li>Department of Engineering Technology</li>
+          <li>Technical University of Denmark (DTU)</li>
+          <li>Copenhagen, Denmark</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="current-year"></span> NEIT — Neural Engineering and Interface Technologies</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

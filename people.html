@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People | NEIT</title>
+  <meta name="description" content="Meet the people at NEIT, including the PI, students, collaborators, and future members of the lab.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="NEIT Lab home">
+      <div class="brand-mark">
+        <span class="logo-neit">NEIT</span><span class="logo-lab">Lab</span>
+      </div>
+      <div class="brand-text">
+        <span>Neural Engineering and Interface Technologies</span>
+      </div>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="people.html" class="active">People</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="kicker">People</div>
+      <h1>People at NEIT</h1>
+      <p class="hero-full">
+        NEIT is currently in its founding phase. This page provides an overview of the
+        lab’s members and will grow as new students, researchers, and collaborators join.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <div class="page-kicker">Principal investigator</div>
+          <h2>Lead</h2>
+        </div>
+      </div>
+      <div id="people-pi-list" class="grid-2">
+        <p>Loading profile...</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <div class="page-kicker">Researchers</div>
+          <h2>Students and collaborators</h2>
+        </div>
+      </div>
+      <div id="people-team-list" class="grid-3">
+        <p>Loading people...</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h3>NEIT</h3>
+        <p>Advancing neural interface technologies through sensing, decoding, and closed-loop interaction.</p>
+      </div>
+      <div>
+        <h3>Navigate</h3>
+        <ul>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="people.html">People</a></li>
+          <li><a href="join.html">Join</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:contact@neitlab.org">contact@neitlab.org</a></li>
+          <li>Department of Engineering Technology</li>
+          <li>Technical University of Denmark (DTU)</li>
+          <li>Copenhagen, Denmark</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="current-year"></span> NEIT — Neural Engineering and Interface Technologies</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

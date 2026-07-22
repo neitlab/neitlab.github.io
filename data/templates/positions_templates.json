@@ -1,0 +1,54 @@
+[
+    {
+      "id": "phd-neural-engineering",
+      "status": "Open call",
+      "title": "PhD opportunities in neural engineering",
+      "summary": "Research opportunities in neural interfaces, biomedical signal processing, and translational neurotechnology.",
+      "details": [
+        "Suitable backgrounds include biomedical engineering, electrical engineering, signal processing, robotics, computer science, or related fields.",
+        "Projects may involve non-invasive neural interfacing, high-density electrophysiology, closed-loop systems, and computational modeling.",
+        "Formal openings may be advertised separately through university channels."
+      ],
+      "audience": "PhD",
+      "is_open": true,
+      "contact_email": "contact@neitlab.org"
+    },
+    {
+      "id": "msc-project-students",
+      "status": "Rolling",
+      "title": "MSc and project students",
+      "summary": "Project-based opportunities for MSc students interested in neural engineering, signal processing, biomedical electronics, and assistive technologies.",
+      "details": [
+        "Student projects may involve experiments, algorithm development, wearable systems, or data analysis.",
+        "Both exploratory and thesis-aligned projects may be available depending on timing and fit."
+      ],
+      "audience": "MSc",
+      "is_open": true,
+      "contact_email": "contact@neitlab.org"
+    },
+    {
+      "id": "visiting-researchers-collaborators",
+      "status": "Collaborations",
+      "title": "Visiting researchers and partnerships",
+      "summary": "Opportunities for visiting researchers, academic collaborators, and translational partnerships across neural interfaces and neurotechnology.",
+      "details": [
+        "Potential collaboration areas include neural interfaces, motor decoding, rehabilitation technologies, and human-machine interaction.",
+        "Please get in touch with a short description of your background and proposed collaboration."
+      ],
+      "audience": "Collaboration",
+      "is_open": true,
+      "contact_email": "contact@neitlab.org"
+    },
+    {
+      "id": "postdoctoral-researchers",
+      "status": "Future opportunities",
+      "title": "Postdoctoral researchers",
+      "summary": "Postdoctoral openings may be announced as the lab grows and funding opportunities develop.",
+      "details": [
+        "Researchers with strong experience in neurotechnology, biomedical signal processing, machine learning, or translational systems are encouraged to reach out informally."
+      ],
+      "audience": "Postdoc",
+      "is_open": false,
+      "contact_email": "contact@neitlab.org"
+    }
+  ]

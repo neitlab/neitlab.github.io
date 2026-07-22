@@ -1,0 +1,72 @@
+[
+  {
+    "id": "deren-barsakcioglu",
+    "name": "Deren Y. Barsakcioglu",
+    "role": "Assistant Professor · Principal Investigator",
+    "group": "pi",
+    "initials": "DYB",
+    "is_visible": true,
+    "image": "assets/people/deren-barsakcioglu.jpg",
+    "bio": "Deren Y. Barsakcioglu leads NEIT Lab at the Technical University of Denmark (DTU). His research lies at the intersection of neural engineering and human–machine interfacing, combining biomedical signal processing, sensing hardware design, and translational approaches to develop neural interface technologies for healthcare and consumer applications. His work focuses on wearable non-invasive neural interfaces based on high-density surface electromyography (HDsEMG), with particular emphasis on extracting neural information related to spinal motor neuron activity. The research integrates advanced source separation methods, low-noise sensing electronics, embedded systems, and wearable platforms to obtain reliable and interpretable neural signals outside controlled laboratory environments. Applications include neurorehabilitation, assistive technologies, prosthetics, movement disorders, and human–machine interaction.",
+    "links": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=MUR-nokAAAAJ"
+      },
+      {
+        "label": "Personal website",
+        "url": "https://derenbar.github.io"
+      },
+      {
+        "label": "Email",
+        "url": "mailto:dyuba@dtu.dk"
+      }
+    ]
+  },
+  {
+    "id": "lab-establishment-note",
+    "name": "NEIT is growing",
+    "role": "Founding phase",
+    "group": "pi_side",
+    "initials": "NL",
+    "is_visible": true,
+    "bio": "The lab is currently being established. New students, researchers, and collaborators will be added here as the group grows.",
+    "links": [
+      {
+        "label": "Join NEIT",
+        "url": "join.html"
+      },
+      {
+        "label": "Contact",
+        "url": "contact.html"
+      }
+    ]
+  },
+  {
+    "id": "future-phd-student",
+    "name": "Open position",
+    "role": "PhD Student",
+    "group": "team",
+    "initials": "P1",
+    "is_visible": false,
+    "bio": "Future PhD researchers will be listed here as the lab grows and positions are filled."
+  },
+  {
+    "id": "future-msc-student",
+    "name": "Open position",
+    "role": "MSc Student",
+    "group": "team",
+    "initials": "M1",
+    "is_visible": false,
+    "bio": "Future MSc and project students will be listed here as they join the group."
+  },
+  {
+    "id": "future-collaborator",
+    "name": "Collaborations",
+    "role": "Academic and translational partners",
+    "group": "team",
+    "initials": "C1",
+    "is_visible": false,
+    "bio": "Selected collaborators and partner researchers can be listed here when appropriate."
+  }
+]
